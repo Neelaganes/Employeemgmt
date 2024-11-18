@@ -1,0 +1,309 @@
+/* login page  */
+#container {
+            background: #4A7766;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 74vh;
+            margin: 0;
+}
+
+#loginbox{
+    width: 300px;
+    padding: 20px;
+    background-color: #9cb0a5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+
+#loginbox h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#loginbox input[type="text"],
+#loginbox input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#loginbox button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*footer page*/
+#foot{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4A7766;
+    margin-bottom: 0px;
+    position:sticky;
+    color: #ECE7E2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#network{
+   text-decoration: none;
+   color: #ECE7E2;
+}
+
+/* header page */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+#lo{
+        font-family: "Creepster", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ECE7E2; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed; /* to keep it at the top of the page */
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px  5px 5px rgba(0, 0, 10, 0.5); /* added shadow color */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar-link:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* register page  */
+
+#in1{
+    margin-left: 60px;
+}
+
+#in2{
+    margin-left: 58px;
+}
+
+#in3{
+    margin-left: 45px;
+}
+
+#in4{
+    margin-left: 10px;
+}
+
+#in5{
+    margin-left: 10px;
+}
+
+#in6{
+    margin-left: 10px;
+}
+
+#in7{
+    margin-left: 10px;
+}
+
+
+#i1{
+    margin-left: 10px;
+}
+
+#i2{
+    margin-left: 10px;
+}
+#i3{
+    margin-left: 10px;
+}
+#i4{
+    margin-left: 10px;
+}
+#i5{
+    margin-left: 10px;
+}
+#i6{
+    margin-left: 10px;
+}
+#i7{
+    margin-left: 10px;
+}
+
+
+#lab {
+    color: #ECE7E2;
+    margin-left: -20px;
+}
+
+input {
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+
+
+button:hover {
+    background-color: chocolate;
+    color: azure;
+}
+
+#controller {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 100%;
+}
+
+#register-box {
+    width: 300px;
+    padding: 20px;
+    background-color: #9cb0a5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: black;
+}
+
+#register-main {
+    background: #4A7766;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74vh;
+    margin: 0;
+}
+
+/* update page */
+
+#update-main{
+    background: #4A7766;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74vh;
+    margin: 0; 
+}
+#updatebox{
+    width: 300px;
+    padding: 20px;
+    background-color: #9cb0a5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+/*finance page*/
+
+#finance-main {
+    background: #4A7766;
+    font-family: Arial, sans-serif;
+    margin:0;
+    color: #ECE7E2;
+}
+
+/* details page */
+
+#details-main {
+    background: #4A7766;
+    font-family: Arial, sans-serif;
+    
+    
+    height: 80vh;
+    margin:0;
+    color: #ECE7E2;
+}
+/* Table styling */
+table {
+    border-radius: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+/* Table header */
+th {
+    background-color: #4A7766;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table rows */
+tr:nth-child(even) {
+    background-color: #ECE7E2;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #4A7766;
+}
+
+/* Optional: Hover effect for rows */
+tr:hover {
+    background-color: #d0cec8;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* employee details */
+#emp-main{
+    height:550px;
+    background: #4A7766;
+    color: #ECE7E2;
+}
